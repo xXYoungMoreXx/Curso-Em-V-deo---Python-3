@@ -1,0 +1,6 @@
+print('='*45)
+km = float(input('Quantos Km foram percorridos ? '))
+d = float(input('O veiculo foi alugado por quantos dias? '))
+print('='*45)
+print('O valor a ser pago é de {:.2f}R$'.format((0.15*km)+(60*d)))
+print('='*45)

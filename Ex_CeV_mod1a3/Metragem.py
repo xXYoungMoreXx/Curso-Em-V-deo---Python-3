@@ -1,0 +1,7 @@
+print('='*50)
+m = float(input("digite a metragem: "))
+print('='*50)
+cm = float(m*100)
+mm = float(m*1000)
+print('{0}m tem:\n{1}cm\n{2}mm'.format(m, cm, mm))
+print('='*50)
